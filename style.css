@@ -22,9 +22,7 @@ body {
     padding: 80px 0;
 }
 
-.bg-light {
-    background-color: #ffffff;
-}
+
 
 .section-title {
     text-align: center;
@@ -144,4 +142,34 @@ body {
     color: white;
     text-align: center;
     padding: 30px 0;
+}
+.gradient-text {
+  font-size: 3rem;
+  font-weight: bold;
+background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fad0c4);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.slider {
+  overflow: hidden;
+  width: 100%;
+  background:white;
+}
+
+.slide-track {
+  display: flex;
+  width:max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.slide-track img {
+  width: 200px;
+  height: auto;
+  flex: shrink 0;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
