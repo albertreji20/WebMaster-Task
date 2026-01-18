@@ -115,6 +115,7 @@ body {
     font-size: 1.1rem;
     margin-bottom: 50px;
 }
+/* about image slider */
 .image-container {
   
   width: 100%;
@@ -123,6 +124,7 @@ body {
   overflow: hidden;
   border-radius: 16px;
   margin: auto;
+  display: flex;
 }
 
 .image-track {
