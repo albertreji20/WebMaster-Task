@@ -107,6 +107,36 @@ body {
     text-align: center;
     font-size: 1.1rem;
 }
+.image-container {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 16px;
+  margin: auto;
+}
+
+.image-track {
+  display: flex;
+  animation: slide 15s linear infinite;
+}
+
+.image-track img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* slide animation */
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 
 /* Events Grid */
 .event-grid {
