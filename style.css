@@ -8,7 +8,7 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background:linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background:linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
     color: #333;
 }
 
@@ -152,8 +152,13 @@ body {
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    /*
       box-shadow: 0 0 20px 12px rgba(0, 212, 255, 0.7);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;*/
+    box-shadow: 
+  0 0 10px rgba(255, 0, 0, 0.7), 
+  0 0 30px rgba(220, 38, 38, 0.4); 
+
   color: white;
   margin-bottom: 30px;
 }
