@@ -198,13 +198,13 @@ body {
 /* about image slider */
 .image-container {
   
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 250px;
+
   max-width: 800px;
   
   overflow: hidden;
   border-radius: 16px;
-  margin: auto;
+ 
   display: flex;
 }
 
