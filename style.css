@@ -140,6 +140,7 @@ body {
   animation: popUp 1s ease-out forwards;
   animation-timeline: view();
   animation-range: entry 30% cover 40%;
+
 }
 
 @keyframes popUp {
@@ -204,11 +205,11 @@ body {
   0 0 10px rgba(255, 0, 0, 0.7), 
   0 0 30px rgba(220, 38, 38, 0.4); 
 
-  color: white;
+  color: #A5F2F3;
   margin-bottom: 30px;
 }
 h3{
-    color:#38BDF8;
+    color:white;
       margin-bottom: 15px;
 }
 .event-card:hover {
@@ -220,6 +221,7 @@ h3{
     height: 200px;
     object-fit: cover;
 }
+
 
 .card-body {
     padding: 20px;
