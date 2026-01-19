@@ -27,7 +27,7 @@ body {
     color: black;
       opacity: 0;
      
-  transform: translateY(40px);
+  transform: translateY(80px);
   animation: popUp 1s ease-out forwards;
   animation-timeline: view();
   animation-range: entry 30% cover 40%;
