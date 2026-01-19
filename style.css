@@ -196,17 +196,15 @@ body {
     border: black;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-    /*
-      box-shadow: 0 0 20px 12px rgba(0, 212, 255, 0.7);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;*/
+  
     box-shadow: 
-  0 0 10px rgba(255, 0, 0, 0.7), 
-  0 0 30px rgba(220, 38, 38, 0.4); 
+  0 0 40px rgba(255, 0, 0, 0.7), 
+  0 0 50px rgba(220, 38, 38, 0.4); 
 
   color: #A5F2F3;
   margin-bottom: 30px;
+  display: flex;
+  
 }
 h3{
     color:white;
