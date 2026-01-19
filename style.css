@@ -129,7 +129,7 @@ body {
 
 .image-track {
   display: flex;
-  animation: slide 15s linear infinite;
+  animation: slide 40s linear infinite;
 }
 
 .image-track img {
